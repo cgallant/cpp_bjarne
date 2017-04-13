@@ -1,0 +1,1353 @@
+17:34:09 **** Incremental Build of configuration Debug for project HelloWorld ****
+make all 
+Building file: ../src/HelloWorld.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/HelloWorld.d" -MT"src/HelloWorld.o" -o "src/HelloWorld.o" "../src/HelloWorld.cpp"
+Finished building: ../src/HelloWorld.cpp
+ 
+Building target: HelloWorld
+Invoking: Cross G++ Linker
+g++  -o "HelloWorld"  ./src/HelloWorld.o   
+Finished building target: HelloWorld
+ 
+17:34:15 **** Incremental Build of configuration Debug for project 4_1_currency converter ****
+make all 
+make: Nothing to be done for 'all'.
+17:34:27 **** Incremental Build of configuration Debug for project HelloWorld ****
+make all 
+make: Nothing to be done for 'all'.
+17:35:02 **** Incremental Build of configuration Debug for project HelloWorld ****
+make all 
+Building file: ../src/HelloWorld.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/HelloWorld.d" -MT"src/HelloWorld.o" -o "src/HelloWorld.o" "../src/HelloWorld.cpp"
+../src/HelloWorld.cpp:10:32: fatal error: std_lib_facilities.h: No such file or directory
+src/subdir.mk:18: recipe for target 'src/HelloWorld.o' failed
+compilation terminated.
+make: *** [src/HelloWorld.o] Error 1
+17:38:23 **** Incremental Build of configuration Debug for project HelloWorld ****
+make all 
+Building file: ../src/HelloWorld.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"/home/gallant/cpp_workspace/HelloWorld/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/HelloWorld.d" -MT"src/HelloWorld.o" -o "src/HelloWorld.o" "../src/HelloWorld.cpp"
+Finished building: ../src/HelloWorld.cpp
+ 
+Building target: HelloWorld
+Invoking: Cross G++ Linker
+g++  -o "HelloWorld"  ./src/HelloWorld.o   
+Finished building target: HelloWorld
+ 
+17:38:31 **** Incremental Build of configuration Debug for project HelloWorld ****
+make all 
+make: Nothing to be done for 'all'.
+17:38:43 **** Incremental Build of configuration Debug for project HelloWorld ****
+make all 
+Building file: ../src/HelloWorld.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"/home/gallant/cpp_workspace/HelloWorld/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/HelloWorld.d" -MT"src/HelloWorld.o" -o "src/HelloWorld.o" "../src/HelloWorld.cpp"
+Finished building: ../src/HelloWorld.cpp
+ 
+Building target: HelloWorld
+Invoking: Cross G++ Linker
+g++  -o "HelloWorld"  ./src/HelloWorld.o   
+Finished building target: HelloWorld
+ 
+17:38:49 **** Incremental Build of configuration Debug for project HelloWorld ****
+make all 
+make: Nothing to be done for 'all'.
+17:39:00 **** Incremental Build of configuration Debug for project HelloWorld ****
+make all 
+Building file: ../src/HelloWorld.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"/home/gallant/cpp_workspace/HelloWorld/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/HelloWorld.d" -MT"src/HelloWorld.o" -o "src/HelloWorld.o" "../src/HelloWorld.cpp"
+Finished building: ../src/HelloWorld.cpp
+ 
+Building target: HelloWorld
+Invoking: Cross G++ Linker
+g++  -o "HelloWorld"  ./src/HelloWorld.o   
+Finished building target: HelloWorld
+ 
+17:39:06 **** Incremental Build of configuration Debug for project HelloWorld ****
+make all 
+make: Nothing to be done for 'all'.
+17:39:16 **** Incremental Build of configuration Debug for project HelloWorld ****
+make all 
+Building file: ../src/HelloWorld.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"/home/gallant/cpp_workspace/HelloWorld/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/HelloWorld.d" -MT"src/HelloWorld.o" -o "src/HelloWorld.o" "../src/HelloWorld.cpp"
+Finished building: ../src/HelloWorld.cpp
+ 
+Building target: HelloWorld
+Invoking: Cross G++ Linker
+g++  -o "HelloWorld"  ./src/HelloWorld.o   
+Finished building target: HelloWorld
+ 
+17:39:21 **** Incremental Build of configuration Debug for project HelloWorld ****
+make all 
+make: Nothing to be done for 'all'.
+10:13:31 **** Build of configuration CPP for project Configuration ****
+make all 
+Building file: ../src/Configuration.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"/home/gallant/cpp_workspace/HelloWorld/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Configuration.d" -MT"src/Configuration.o" -o "src/Configuration.o" "../src/Configuration.cpp"
+Finished building: ../src/Configuration.cpp
+ 
+Building target: Configuration
+Invoking: Cross G++ Linker
+g++  -o "Configuration"  ./src/Configuration.o   
+Finished building target: Configuration
+ 
+10:13:39 **** Incremental Build of configuration CPP for project Configuration ****
+make all 
+Building file: ../src/Configuration.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"/home/gallant/cpp_workspace/HelloWorld/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Configuration.d" -MT"src/Configuration.o" -o "src/Configuration.o" "../src/Configuration.cpp"
+Finished building: ../src/Configuration.cpp
+ 
+Building target: Configuration
+Invoking: Cross G++ Linker
+g++  -o "Configuration"  ./src/Configuration.o   
+Finished building target: Configuration
+ 
+15:54:07 **** Build of configuration 4_6_CPP for project 4_6_Bleeper ****
+make all 
+Building file: ../src/4_6_Bleeper.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"/home/gallant/cpp_workspace/HelloWorld/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/4_6_Bleeper.d" -MT"src/4_6_Bleeper.o" -o "src/4_6_Bleeper.o" "../src/4_6_Bleeper.cpp"
+../src/4_6_Bleeper.cpp: In function ‘int main()’:
+../src/4_6_Bleeper.cpp:22:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for (int i = 0; i < words.size(); i++) {
+                    ^
+Finished building: ../src/4_6_Bleeper.cpp
+ 
+Building target: 4_6_Bleeper
+Invoking: Cross G++ Linker
+g++  -o "4_6_Bleeper"  ./src/4_6_Bleeper.o   
+Finished building target: 4_6_Bleeper
+ 
+15:55:05 **** Incremental Build of configuration 4_6_CPP for project 4_6_Bleeper ****
+make all 
+Building file: ../src/4_6_Bleeper.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"/home/gallant/cpp_workspace/HelloWorld/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/4_6_Bleeper.d" -MT"src/4_6_Bleeper.o" -o "src/4_6_Bleeper.o" "../src/4_6_Bleeper.cpp"
+../src/4_6_Bleeper.cpp: In function ‘int main()’:
+../src/4_6_Bleeper.cpp:22:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for (int i = 0; i< words.size(); i++) {
+                   ^
+Finished building: ../src/4_6_Bleeper.cpp
+ 
+Building target: 4_6_Bleeper
+Invoking: Cross G++ Linker
+g++  -o "4_6_Bleeper"  ./src/4_6_Bleeper.o   
+Finished building target: 4_6_Bleeper
+ 
+15:55:51 **** Incremental Build of configuration 4_6_CPP for project 4_6_Bleeper ****
+make all 
+Building file: ../src/4_6_Bleeper.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"/home/gallant/cpp_workspace/HelloWorld/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/4_6_Bleeper.d" -MT"src/4_6_Bleeper.o" -o "src/4_6_Bleeper.o" "../src/4_6_Bleeper.cpp"
+Finished building: ../src/4_6_Bleeper.cpp
+ 
+Building target: 4_6_Bleeper
+Invoking: Cross G++ Linker
+g++  -o "4_6_Bleeper"  ./src/4_6_Bleeper.o   
+Finished building target: 4_6_Bleeper
+ 
+15:55:58 **** Incremental Build of configuration 4_6_CPP for project 4_6_Bleeper ****
+make all 
+make: Nothing to be done for 'all'.
+15:58:34 **** Incremental Build of configuration 4_6_CPP for project 4_6_Bleeper ****
+make all 
+make: Nothing to be done for 'all'.
+15:58:41 **** Incremental Build of configuration 4_6_CPP for project 4_6_Bleeper ****
+make all 
+Building file: ../src/4_6_Bleeper.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"/home/gallant/cpp_workspace/HelloWorld/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/4_6_Bleeper.d" -MT"src/4_6_Bleeper.o" -o "src/4_6_Bleeper.o" "../src/4_6_Bleeper.cpp"
+Finished building: ../src/4_6_Bleeper.cpp
+ 
+Building target: 4_6_Bleeper
+Invoking: Cross G++ Linker
+g++  -o "4_6_Bleeper"  ./src/4_6_Bleeper.o   
+Finished building target: 4_6_Bleeper
+ 
+15:58:53 **** Incremental Build of configuration 4_6_CPP for project 4_6_Bleeper ****
+make all 
+make: Nothing to be done for 'all'.
+16:00:14 **** Incremental Build of configuration 4_6_CPP for project 4_6_Bleeper ****
+make all 
+Building file: ../src/4_6_Bleeper.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"/home/gallant/cpp_workspace/HelloWorld/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/4_6_Bleeper.d" -MT"src/4_6_Bleeper.o" -o "src/4_6_Bleeper.o" "../src/4_6_Bleeper.cpp"
+Finished building: ../src/4_6_Bleeper.cpp
+ 
+Building target: 4_6_Bleeper
+Invoking: Cross G++ Linker
+g++  -o "4_6_Bleeper"  ./src/4_6_Bleeper.o   
+Finished building target: 4_6_Bleeper
+ 
+16:00:21 **** Incremental Build of configuration 4_6_CPP for project 4_6_Bleeper ****
+make all 
+make: Nothing to be done for 'all'.
+16:00:41 **** Incremental Build of configuration 4_6_CPP for project 4_6_Bleeper ****
+make all 
+Building file: ../src/4_6_Bleeper.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"/home/gallant/cpp_workspace/HelloWorld/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/4_6_Bleeper.d" -MT"src/4_6_Bleeper.o" -o "src/4_6_Bleeper.o" "../src/4_6_Bleeper.cpp"
+Finished building: ../src/4_6_Bleeper.cpp
+ 
+Building target: 4_6_Bleeper
+Invoking: Cross G++ Linker
+g++  -o "4_6_Bleeper"  ./src/4_6_Bleeper.o   
+Finished building target: 4_6_Bleeper
+ 
+16:00:45 **** Incremental Build of configuration 4_6_CPP for project 4_6_Bleeper ****
+make all 
+make: Nothing to be done for 'all'.
+16:01:38 **** Incremental Build of configuration 4_6_CPP for project 4_6_Bleeper ****
+make all 
+Building file: ../src/4_6_Bleeper.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"/home/gallant/cpp_workspace/HelloWorld/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/4_6_Bleeper.d" -MT"src/4_6_Bleeper.o" -o "src/4_6_Bleeper.o" "../src/4_6_Bleeper.cpp"
+Finished building: ../src/4_6_Bleeper.cpp
+ 
+Building target: 4_6_Bleeper
+Invoking: Cross G++ Linker
+g++  -o "4_6_Bleeper"  ./src/4_6_Bleeper.o   
+Finished building target: 4_6_Bleeper
+ 
+16:01:42 **** Incremental Build of configuration 4_6_CPP for project 4_6_Bleeper ****
+make all 
+make: Nothing to be done for 'all'.
+16:04:08 **** Incremental Build of configuration 4_6_CPP for project 4_6_Bleeper ****
+make all 
+Building file: ../src/4_6_Bleeper.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"/home/gallant/cpp_workspace/HelloWorld/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/4_6_Bleeper.d" -MT"src/4_6_Bleeper.o" -o "src/4_6_Bleeper.o" "../src/4_6_Bleeper.cpp"
+../src/4_6_Bleeper.cpp: In function ‘int main()’:
+../src/4_6_Bleeper.cpp:20:7: error: no match for ‘operator<<’ (operand types are ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ and ‘std::istream {aka std::basic_istream<char>}’)
+   temp<<cin;
+       ^
+In file included from /usr/include/c++/5/regex:61:0,
+                 from /home/gallant/cpp_workspace/HelloWorld/src/std_lib_facilities.h:41,
+                 from ../src/4_6_Bleeper.cpp:9:
+/usr/include/c++/5/bits/regex.h:1480:5: note: candidate: template<class _Ch_type, class _Ch_traits, class _Bi_iter> std::basic_ostream<_CharT, _Traits>& std::__cxx11::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__cxx11::sub_match<_Bi_iter>&)
+     operator<<(basic_ostream<_Ch_type, _Ch_traits>& __os,
+     ^
+/usr/include/c++/5/bits/regex.h:1480:5: note:   template argument deduction/substitution failed:
+../src/4_6_Bleeper.cpp:20:9: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+   temp<<cin;
+         ^
+In file included from /usr/include/c++/5/memory:82:0,
+                 from /usr/include/c++/5/regex:46,
+                 from /home/gallant/cpp_workspace/HelloWorld/src/std_lib_facilities.h:41,
+                 from ../src/4_6_Bleeper.cpp:9:
+/usr/include/c++/5/bits/shared_ptr.h:66:5: note: candidate: template<class _Ch, class _Tr, class _Tp, __gnu_cxx::_Lock_policy _Lp> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__shared_ptr<_Tp, _Lp>&)
+     operator<<(std::basic_ostream<_Ch, _Tr>& __os,
+     ^
+/usr/include/c++/5/bits/shared_ptr.h:66:5: note:   template argument deduction/substitution failed:
+../src/4_6_Bleeper.cpp:20:9: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+   temp<<cin;
+         ^
+In file included from /usr/include/c++/5/regex:39:0,
+                 from /home/gallant/cpp_workspace/HelloWorld/src/std_lib_facilities.h:41,
+                 from ../src/4_6_Bleeper.cpp:9:
+/usr/include/c++/5/bitset:1530:5: note: candidate: template<class _CharT, class _Traits, long unsigned int _Nb> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::bitset<_Nb>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+/usr/include/c++/5/bitset:1530:5: note:   template argument deduction/substitution failed:
+../src/4_6_Bleeper.cpp:20:9: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+   temp<<cin;
+         ^
+In file included from /usr/include/c++/5/random:51:0,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /home/gallant/cpp_workspace/HelloWorld/src/std_lib_facilities.h:39,
+                 from ../src/4_6_Bleeper.cpp:9:
+/usr/include/c++/5/bits/random.tcc:3160:5: note: candidate: template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::piecewise_linear_distribution<_RealType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+/usr/include/c++/5/bits/random.tcc:3160:5: note:   template argument deduction/substitution failed:
+../src/4_6_Bleeper.cpp:20:9: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+   temp<<cin;
+         ^
+In file included from /usr/include/c++/5/random:51:0,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /home/gallant/cpp_workspace/HelloWorld/src/std_lib_facilities.h:39,
+                 from ../src/4_6_Bleeper.cpp:9:
+/usr/include/c++/5/bits/random.tcc:2944:5: note: candidate: template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::piecewise_constant_distribution<_RealType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+/usr/include/c++/5/bits/random.tcc:2944:5: note:   template argument deduction/substitution failed:
+../src/4_6_Bleeper.cpp:20:9: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+   temp<<cin;
+         ^
+In file included from /usr/include/c++/5/random:51:0,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /home/gallant/cpp_workspace/HelloWorld/src/std_lib_facilities.h:39,
+                 from ../src/4_6_Bleeper.cpp:9:
+/usr/include/c++/5/bits/random.tcc:2734:5: note: candidate: template<class _IntType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::discrete_distribution<_IntType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+/usr/include/c++/5/bits/random.tcc:2734:5: note:   template argument deduction/substitution failed:
+../src/4_6_Bleeper.cpp:20:9: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+   temp<<cin;
+         ^
+In file included from /usr/include/c++/5/random:51:0,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /home/gallant/cpp_workspace/HelloWorld/src/std_lib_facilities.h:39,
+                 from ../src/4_6_Bleeper.cpp:9:
+/usr/include/c++/5/bits/random.tcc:2275:5: note: candidate: template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::student_t_distribution<_RealType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+/usr/include/c++/5/bits/random.tcc:2275:5: note:   template argument deduction/substitution failed:
+../src/4_6_Bleeper.cpp:20:9: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+   temp<<cin;
+         ^
+In file included from /usr/include/c++/5/random:51:0,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /home/gallant/cpp_workspace/HelloWorld/src/std_lib_facilities.h:39,
+                 from ../src/4_6_Bleeper.cpp:9:
+/usr/include/c++/5/bits/random.tcc:2200:5: note: candidate: template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::fisher_f_distribution<_RealType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+/usr/include/c++/5/bits/random.tcc:2200:5: note:   template argument deduction/substitution failed:
+../src/4_6_Bleeper.cpp:20:9: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+   temp<<cin;
+         ^
+In file included from /usr/include/c++/5/random:51:0,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /home/gallant/cpp_workspace/HelloWorld/src/std_lib_facilities.h:39,
+                 from ../src/4_6_Bleeper.cpp:9:
+/usr/include/c++/5/bits/random.tcc:2036:5: note: candidate: template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::chi_squared_distribution<_RealType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+/usr/include/c++/5/bits/random.tcc:2036:5: note:   template argument deduction/substitution failed:
+../src/4_6_Bleeper.cpp:20:9: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+   temp<<cin;
+         ^
+In file included from /usr/include/c++/5/random:51:0,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /home/gallant/cpp_workspace/HelloWorld/src/std_lib_facilities.h:39,
+                 from ../src/4_6_Bleeper.cpp:9:
+/usr/include/c++/5/bits/random.tcc:1963:5: note: candidate: template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::lognormal_distribution<_RealType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+/usr/include/c++/5/bits/random.tcc:1963:5: note:   template argument deduction/substitution failed:
+../src/4_6_Bleeper.cpp:20:9: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+   temp<<cin;
+         ^
+In file included from /usr/include/c++/5/random:51:0,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /home/gallant/cpp_workspace/HelloWorld/src/std_lib_facilities.h:39,
+                 from ../src/4_6_Bleeper.cpp:9:
+/usr/include/c++/5/bits/random.tcc:1667:5: note: candidate: template<class _IntType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::binomial_distribution<_IntType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+/usr/include/c++/5/bits/random.tcc:1667:5: note:   template argument deduction/substitution failed:
+../src/4_6_Bleeper.cpp:20:9: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+   temp<<cin;
+         ^
+In file included from /usr/include/c++/5/random:51:0,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /home/gallant/cpp_workspace/HelloWorld/src/std_lib_facilities.h:39,
+                 from ../src/4_6_Bleeper.cpp:9:
+/usr/include/c++/5/bits/random.tcc:1400:5: note: candidate: template<class _IntType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::poisson_distribution<_IntType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+/usr/include/c++/5/bits/random.tcc:1400:5: note:   template argument deduction/substitution failed:
+../src/4_6_Bleeper.cpp:20:9: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+   temp<<cin;
+         ^
+In file included from /usr/include/c++/5/random:51:0,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /home/gallant/cpp_workspace/HelloWorld/src/std_lib_facilities.h:39,
+                 from ../src/4_6_Bleeper.cpp:9:
+/usr/include/c++/5/bits/random.tcc:1195:5: note: candidate: template<class _IntType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::negative_binomial_distribution<_IntType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+/usr/include/c++/5/bits/random.tcc:1195:5: note:   template argument deduction/substitution failed:
+../src/4_6_Bleeper.cpp:20:9: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+   temp<<cin;
+         ^
+In file included from /usr/include/c++/5/random:51:0,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /home/gallant/cpp_workspace/HelloWorld/src/std_lib_facilities.h:39,
+                 from ../src/4_6_Bleeper.cpp:9:
+/usr/include/c++/5/bits/random.tcc:831:5: note: candidate: template<class _RandomNumberEngine, long unsigned int __k, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::shuffle_order_engine<_RandomNumberEngine, __k>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+/usr/include/c++/5/bits/random.tcc:831:5: note:   template argument deduction/substitution failed:
+../src/4_6_Bleeper.cpp:20:9: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+   temp<<cin;
+         ^
+In file included from /usr/include/c++/5/random:51:0,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /home/gallant/cpp_workspace/HelloWorld/src/std_lib_facilities.h:39,
+                 from ../src/4_6_Bleeper.cpp:9:
+/usr/include/c++/5/bits/random.tcc:702:5: note: candidate: template<class _RandomNumberEngine, long unsigned int __p, long unsigned int __r, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::discard_block_engine<_RandomNumberEngine, __p, __r>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+/usr/include/c++/5/bits/random.tcc:702:5: note:   template argument deduction/substitution failed:
+../src/4_6_Bleeper.cpp:20:9: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+   temp<<cin;
+         ^
+In file included from /usr/include/c++/5/random:51:0,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /home/gallant/cpp_workspace/HelloWorld/src/std_lib_facilities.h:39,
+                 from ../src/4_6_Bleeper.cpp:9:
+/usr/include/c++/5/bits/random.tcc:632:5: note: candidate: template<class _UIntType, long unsigned int __w, long unsigned int __s, long unsigned int __r, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::subtract_with_carry_engine<_UIntType, __w, __s, __r>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+/usr/include/c++/5/bits/random.tcc:632:5: note:   template argument deduction/substitution failed:
+../src/4_6_Bleeper.cpp:20:9: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+   temp<<cin;
+         ^
+In file included from /usr/include/c++/5/random:51:0,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /home/gallant/cpp_workspace/HelloWorld/src/std_lib_facilities.h:39,
+                 from ../src/4_6_Bleeper.cpp:9:
+/usr/include/c++/5/bits/random.tcc:156:5: note: candidate: template<class _UIntType, _UIntType __a, _UIntType __c, _UIntType __m, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::linear_congruential_engine<_UIntType, __a, __c, __m>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+/usr/include/c++/5/bits/random.tcc:156:5: note:   template argument deduction/substitution failed:
+../src/4_6_Bleeper.cpp:20:9: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+   temp<<cin;
+         ^
+In file included from /usr/include/c++/5/random:51:0,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /home/gallant/cpp_workspace/HelloWorld/src/std_lib_facilities.h:39,
+                 from ../src/4_6_Bleeper.cpp:9:
+/usr/include/c++/5/bits/random.tcc:2598:5: note: candidate: template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::extreme_value_distribution<_RealType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+/usr/include/c++/5/bits/random.tcc:2598:5: note:   template argument deduction/substitution failed:
+../src/4_6_Bleeper.cpp:20:9: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+   temp<<cin;
+         ^
+In file included from /usr/include/c++/5/random:51:0,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /home/gallant/cpp_workspace/HelloWorld/src/std_lib_facilities.h:39,
+                 from ../src/4_6_Bleeper.cpp:9:
+/usr/include/c++/5/bits/random.tcc:2522:5: note: candidate: template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::weibull_distribution<_RealType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+/usr/include/c++/5/bits/random.tcc:2522:5: note:   template argument deduction/substitution failed:
+../src/4_6_Bleeper.cpp:20:9: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+   temp<<cin;
+         ^
+In file included from /usr/include/c++/5/random:51:0,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /home/gallant/cpp_workspace/HelloWorld/src/std_lib_facilities.h:39,
+                 from ../src/4_6_Bleeper.cpp:9:
+/usr/include/c++/5/bits/random.tcc:1731:5: note: candidate: template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::exponential_distribution<_RealType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+/usr/include/c++/5/bits/random.tcc:1731:5: note:   template argument deduction/substitution failed:
+../src/4_6_Bleeper.cpp:20:9: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+   temp<<cin;
+         ^
+In file included from /usr/include/c++/5/random:51:0,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /home/gallant/cpp_workspace/HelloWorld/src/std_lib_facilities.h:39,
+                 from ../src/4_6_Bleeper.cpp:9:
+/usr/include/c++/5/bits/random.tcc:2444:5: note: candidate: template<class _RealType1, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::gamma_distribution<_RealType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+/usr/include/c++/5/bits/random.tcc:2444:5: note:   template argument deduction/substitution failed:
+../src/4_6_Bleeper.cpp:20:9: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+   temp<<cin;
+         ^
+In file included from /usr/include/c++/5/random:51:0,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /home/gallant/cpp_workspace/HelloWorld/src/std_lib_facilities.h:39,
+                 from ../src/4_6_Bleeper.cpp:9:
+/usr/include/c++/5/bits/random.tcc:1080:5: note: candidate: template<class _IntType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::geometric_distribution<_IntType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+/usr/include/c++/5/bits/random.tcc:1080:5: note:   template argument deduction/substitution failed:
+../src/4_6_Bleeper.cpp:20:9: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+   temp<<cin;
+         ^
+In file included from /usr/include/c++/5/random:51:0,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /home/gallant/cpp_workspace/HelloWorld/src/std_lib_facilities.h:39,
+                 from ../src/4_6_Bleeper.cpp:9:
+/usr/include/c++/5/bits/random.tcc:1898:5: note: candidate: template<class _RealType1, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::normal_distribution<_RealType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+/usr/include/c++/5/bits/random.tcc:1898:5: note:   template argument deduction/substitution failed:
+../src/4_6_Bleeper.cpp:20:9: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+   temp<<cin;
+         ^
+In file included from /usr/include/c++/5/random:51:0,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /home/gallant/cpp_workspace/HelloWorld/src/std_lib_facilities.h:39,
+                 from ../src/4_6_Bleeper.cpp:9:
+/usr/include/c++/5/bits/random.tcc:998:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::bernoulli_distribution&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+/usr/include/c++/5/bits/random.tcc:998:5: note:   template argument deduction/substitution failed:
+../src/4_6_Bleeper.cpp:20:9: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+   temp<<cin;
+         ^
+In file included from /usr/include/c++/5/random:51:0,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /home/gallant/cpp_workspace/HelloWorld/src/std_lib_facilities.h:39,
+                 from ../src/4_6_Bleeper.cpp:9:
+/usr/include/c++/5/bits/random.tcc:2123:5: note: candidate: template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::cauchy_distribution<_RealType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+/usr/include/c++/5/bits/random.tcc:2123:5: note:   template argument deduction/substitution failed:
+../src/4_6_Bleeper.cpp:20:9: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+   temp<<cin;
+         ^
+In file included from /usr/include/c++/5/random:51:0,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /home/gallant/cpp_workspace/HelloWorld/src/std_lib_facilities.h:39,
+                 from ../src/4_6_Bleeper.cpp:9:
+/usr/include/c++/5/bits/random.tcc:936:5: note: candidate: template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::uniform_real_distribution<_IntType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+/usr/include/c++/5/bits/random.tcc:936:5: note:   template argument deduction/substitution failed:
+../src/4_6_Bleeper.cpp:20:9: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+   temp<<cin;
+         ^
+In file included from /usr/include/c++/5/random:51:0,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /home/gallant/cpp_workspace/HelloWorld/src/std_lib_facilities.h:39,
+                 from ../src/4_6_Bleeper.cpp:9:
+/usr/include/c++/5/bits/random.tcc:877:5: note: candidate: template<class _IntType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::uniform_int_distribution<_IntType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+/usr/include/c++/5/bits/random.tcc:877:5: note:   template argument deduction/substitution failed:
+../src/4_6_Bleeper.cpp:20:9: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+   temp<<cin;
+         ^
+In file included from /usr/include/c++/5/random:51:0,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /home/gallant/cpp_workspace/HelloWorld/src/std_lib_facilities.h:39,
+                 from ../src/4_6_Bleeper.cpp:9:
+/usr/include/c++/5/bits/random.tcc:477:5: note: candidate: template<class _UIntType1, long unsigned int __w1, long unsigned int __n1, long unsigned int __m1, long unsigned int __r1, _UIntType1 __a1, long unsigned int __u1, _UIntType1 __d1, long unsigned int __s1, _UIntType1 __b1, long unsigned int __t1, _UIntType1 __c1, long unsigned int __l1, _UIntType1 __f1, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::mersenne_twister_engine<_UIntType, __w, __n, __m, __r, __a, __u, __d, __s, __b, __t, __c, __l, __f>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+/usr/include/c++/5/bits/random.tcc:477:5: note:   template argument deduction/substitution failed:
+../src/4_6_Bleeper.cpp:20:9: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+   temp<<cin;
+         ^
+In file included from /usr/include/c++/5/random:49:0,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /home/gallant/cpp_workspace/HelloWorld/src/std_lib_facilities.h:39,
+                 from ../src/4_6_Bleeper.cpp:9:
+/usr/include/c++/5/bits/random.h:1269:5: note: candidate: template<class _RandomNumberEngine, long unsigned int __w, class _UIntType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::independent_bits_engine<_RandomNumberEngine, __w, _UIntType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+/usr/include/c++/5/bits/random.h:1269:5: note:   template argument deduction/substitution failed:
+../src/4_6_Bleeper.cpp:20:9: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+   temp<<cin;
+         ^
+In file included from /home/gallant/cpp_workspace/HelloWorld/src/std_lib_facilities.h:29:0,
+                 from ../src/4_6_Bleeper.cpp:9:
+/usr/include/c++/5/iomanip:363:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Put_time<_CharT>)
+     operator<<(basic_ostream<_CharT, _Traits>& __os, _Put_time<_CharT> __f)
+     ^
+/usr/include/c++/5/iomanip:363:5: note:   template argument deduction/substitution failed:
+../src/4_6_Bleeper.cpp:20:9: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+   temp<<cin;
+         ^
+In file included from /home/gallant/cpp_workspace/HelloWorld/src/std_lib_facilities.h:29:0,
+                 from ../src/4_6_Bleeper.cpp:9:
+/usr/include/c++/5/iomanip:311:5: note: candidate: template<class _CharT, class _Traits, class _MoneyT> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Put_money<_MoneyT>)
+     operator<<(basic_ostream<_CharT, _Traits>& __os, _Put_money<_MoneyT> __f)
+     ^
+/usr/include/c++/5/iomanip:311:5: note:   template argument deduction/substitution failed:
+../src/4_6_Bleeper.cpp:20:9: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+   temp<<cin;
+         ^
+In file included from /home/gallant/cpp_workspace/HelloWorld/src/std_lib_facilities.h:29:0,
+                 from ../src/4_6_Bleeper.cpp:9:
+/usr/include/c++/5/iomanip:238:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setw)
+     operator<<(basic_ostream<_CharT, _Traits>& __os, _Setw __f)
+     ^
+/usr/include/c++/5/iomanip:238:5: note:   template argument deduction/substitution failed:
+../src/4_6_Bleeper.cpp:20:9: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+   temp<<cin;
+         ^
+In file included from /home/gallant/cpp_workspace/HelloWorld/src/std_lib_facilities.h:29:0,
+src/subdir.mk:18: recipe for target 'src/4_6_Bleeper.o' failed
+                 from ../src/4_6_Bleeper.cpp:9:
+/usr/include/c++/5/iomanip:208:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setprecision)
+     operator<<(basic_ostream<_CharT, _Traits>& __os, _Setprecision __f)
+     ^
+/usr/include/c++/5/iomanip:208:5: note:   template argument deduction/substitution failed:
+../src/4_6_Bleeper.cpp:20:9: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+   temp<<cin;
+         ^
+In file included from /home/gallant/cpp_workspace/HelloWorld/src/std_lib_facilities.h:29:0,
+                 from ../src/4_6_Bleeper.cpp:9:
+/usr/include/c++/5/iomanip:178:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setfill<_CharT>)
+     operator<<(basic_ostream<_CharT, _Traits>& __os, _Setfill<_CharT> __f)
+     ^
+/usr/include/c++/5/iomanip:178:5: note:   template argument deduction/substitution failed:
+../src/4_6_Bleeper.cpp:20:9: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+   temp<<cin;
+         ^
+In file included from /home/gallant/cpp_workspace/HelloWorld/src/std_lib_facilities.h:29:0,
+                 from ../src/4_6_Bleeper.cpp:9:
+/usr/include/c++/5/iomanip:143:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setbase)
+     operator<<(basic_ostream<_CharT, _Traits>& __os, _Setbase __f)
+     ^
+/usr/include/c++/5/iomanip:143:5: note:   template argument deduction/substitution failed:
+../src/4_6_Bleeper.cpp:20:9: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+   temp<<cin;
+         ^
+In file included from /home/gallant/cpp_workspace/HelloWorld/src/std_lib_facilities.h:29:0,
+                 from ../src/4_6_Bleeper.cpp:9:
+/usr/include/c++/5/iomanip:109:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setiosflags)
+     operator<<(basic_ostream<_CharT, _Traits>& __os, _Setiosflags __f)
+     ^
+/usr/include/c++/5/iomanip:109:5: note:   template argument deduction/substitution failed:
+../src/4_6_Bleeper.cpp:20:9: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+   temp<<cin;
+         ^
+In file included from /home/gallant/cpp_workspace/HelloWorld/src/std_lib_facilities.h:29:0,
+                 from ../src/4_6_Bleeper.cpp:9:
+/usr/include/c++/5/iomanip:79:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Resetiosflags)
+     operator<<(basic_ostream<_CharT, _Traits>& __os, _Resetiosflags __f)
+     ^
+/usr/include/c++/5/iomanip:79:5: note:   template argument deduction/substitution failed:
+../src/4_6_Bleeper.cpp:20:9: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+   temp<<cin;
+         ^
+In file included from /usr/include/c++/5/iostream:39:0,
+                 from /home/gallant/cpp_workspace/HelloWorld/src/std_lib_facilities.h:28,
+                 from ../src/4_6_Bleeper.cpp:9:
+/usr/include/c++/5/ostream:628:5: note: candidate: template<class _CharT, class _Traits, class _Tp> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&&, const _Tp&)
+     operator<<(basic_ostream<_CharT, _Traits>&& __os, const _Tp& __x)
+     ^
+/usr/include/c++/5/ostream:628:5: note:   template argument deduction/substitution failed:
+../src/4_6_Bleeper.cpp:20:9: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+   temp<<cin;
+         ^
+In file included from /usr/include/c++/5/iostream:39:0,
+                 from /home/gallant/cpp_workspace/HelloWorld/src/std_lib_facilities.h:28,
+                 from ../src/4_6_Bleeper.cpp:9:
+/usr/include/c++/5/ostream:574:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+     ^
+/usr/include/c++/5/ostream:574:5: note:   template argument deduction/substitution failed:
+../src/4_6_Bleeper.cpp:20:9: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘std::basic_ostream<char, _Traits>’
+   temp<<cin;
+         ^
+In file included from /usr/include/c++/5/iostream:39:0,
+                 from /home/gallant/cpp_workspace/HelloWorld/src/std_lib_facilities.h:28,
+                 from ../src/4_6_Bleeper.cpp:9:
+/usr/include/c++/5/ostream:569:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+     ^
+/usr/include/c++/5/ostream:569:5: note:   template argument deduction/substitution failed:
+../src/4_6_Bleeper.cpp:20:9: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘std::basic_ostream<char, _Traits>’
+   temp<<cin;
+         ^
+In file included from /usr/include/c++/5/iostream:39:0,
+                 from /home/gallant/cpp_workspace/HelloWorld/src/std_lib_facilities.h:28,
+                 from ../src/4_6_Bleeper.cpp:9:
+/usr/include/c++/5/ostream:556:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const char* __s)
+     ^
+/usr/include/c++/5/ostream:556:5: note:   template argument deduction/substitution failed:
+../src/4_6_Bleeper.cpp:20:9: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘std::basic_ostream<char, _Traits>’
+   temp<<cin;
+         ^
+In file included from /usr/include/c++/5/ostream:638:0,
+                 from /usr/include/c++/5/iostream:39,
+                 from /home/gallant/cpp_workspace/HelloWorld/src/std_lib_facilities.h:28,
+                 from ../src/4_6_Bleeper.cpp:9:
+/usr/include/c++/5/bits/ostream.tcc:321:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+     ^
+/usr/include/c++/5/bits/ostream.tcc:321:5: note:   template argument deduction/substitution failed:
+../src/4_6_Bleeper.cpp:20:9: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+   temp<<cin;
+         ^
+In file included from /usr/include/c++/5/iostream:39:0,
+                 from /home/gallant/cpp_workspace/HelloWorld/src/std_lib_facilities.h:28,
+                 from ../src/4_6_Bleeper.cpp:9:
+/usr/include/c++/5/ostream:539:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+     ^
+/usr/include/c++/5/ostream:539:5: note:   template argument deduction/substitution failed:
+../src/4_6_Bleeper.cpp:20:9: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+   temp<<cin;
+         ^
+In file included from /usr/include/c++/5/iostream:39:0,
+                 from /home/gallant/cpp_workspace/HelloWorld/src/std_lib_facilities.h:28,
+                 from ../src/4_6_Bleeper.cpp:9:
+/usr/include/c++/5/ostream:519:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)
+     operator<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+     ^
+/usr/include/c++/5/ostream:519:5: note:   template argument deduction/substitution failed:
+../src/4_6_Bleeper.cpp:20:9: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘std::basic_ostream<char, _Traits>’
+   temp<<cin;
+         ^
+In file included from /usr/include/c++/5/iostream:39:0,
+                 from /home/gallant/cpp_workspace/HelloWorld/src/std_lib_facilities.h:28,
+                 from ../src/4_6_Bleeper.cpp:9:
+/usr/include/c++/5/ostream:514:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)
+     operator<<(basic_ostream<char, _Traits>& __out, signed char __c)
+     ^
+/usr/include/c++/5/ostream:514:5: note:   template argument deduction/substitution failed:
+../src/4_6_Bleeper.cpp:20:9: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘std::basic_ostream<char, _Traits>’
+   temp<<cin;
+         ^
+In file included from /usr/include/c++/5/iostream:39:0,
+                 from /home/gallant/cpp_workspace/HelloWorld/src/std_lib_facilities.h:28,
+                 from ../src/4_6_Bleeper.cpp:9:
+/usr/include/c++/5/ostream:508:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)
+     operator<<(basic_ostream<char, _Traits>& __out, char __c)
+     ^
+/usr/include/c++/5/ostream:508:5: note:   template argument deduction/substitution failed:
+../src/4_6_Bleeper.cpp:20:9: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘std::basic_ostream<char, _Traits>’
+   temp<<cin;
+         ^
+In file included from /usr/include/c++/5/iostream:39:0,
+                 from /home/gallant/cpp_workspace/HelloWorld/src/std_lib_facilities.h:28,
+                 from ../src/4_6_Bleeper.cpp:9:
+/usr/include/c++/5/ostream:502:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+     ^
+/usr/include/c++/5/ostream:502:5: note:   template argument deduction/substitution failed:
+../src/4_6_Bleeper.cpp:20:9: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+   temp<<cin;
+         ^
+In file included from /usr/include/c++/5/iostream:39:0,
+                 from /home/gallant/cpp_workspace/HelloWorld/src/std_lib_facilities.h:28,
+                 from ../src/4_6_Bleeper.cpp:9:
+/usr/include/c++/5/ostream:497:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+     ^
+/usr/include/c++/5/ostream:497:5: note:   template argument deduction/substitution failed:
+../src/4_6_Bleeper.cpp:20:9: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+   temp<<cin;
+         ^
+In file included from /usr/include/c++/5/bits/ios_base.h:46:0,
+                 from /usr/include/c++/5/ios:42,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from /home/gallant/cpp_workspace/HelloWorld/src/std_lib_facilities.h:28,
+                 from ../src/4_6_Bleeper.cpp:9:
+/usr/include/c++/5/system_error:209:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::error_code&)
+     operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)
+     ^
+/usr/include/c++/5/system_error:209:5: note:   template argument deduction/substitution failed:
+../src/4_6_Bleeper.cpp:20:9: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+   temp<<cin;
+         ^
+In file included from /usr/include/c++/5/string:52:0,
+                 from /usr/include/c++/5/bits/locale_classes.h:40,
+                 from /usr/include/c++/5/bits/ios_base.h:41,
+                 from /usr/include/c++/5/ios:42,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from /home/gallant/cpp_workspace/HelloWorld/src/std_lib_facilities.h:28,
+                 from ../src/4_6_Bleeper.cpp:9:
+/usr/include/c++/5/bits/basic_string.h:5172:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     operator<<(basic_ostream<_CharT, _Traits>& __os,
+     ^
+/usr/include/c++/5/bits/basic_string.h:5172:5: note:   template argument deduction/substitution failed:
+../src/4_6_Bleeper.cpp:20:9: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+   temp<<cin;
+         ^
+make: *** [src/4_6_Bleeper.o] Error 1
+16:04:41 **** Incremental Build of configuration 4_6_CPP for project 4_6_Bleeper ****
+make all 
+Building file: ../src/4_6_Bleeper.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"/home/gallant/cpp_workspace/HelloWorld/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/4_6_Bleeper.d" -MT"src/4_6_Bleeper.o" -o "src/4_6_Bleeper.o" "../src/4_6_Bleeper.cpp"
+Finished building: ../src/4_6_Bleeper.cpp
+ 
+Building target: 4_6_Bleeper
+Invoking: Cross G++ Linker
+g++  -o "4_6_Bleeper"  ./src/4_6_Bleeper.o   
+Finished building target: 4_6_Bleeper
+ 
+16:04:47 **** Incremental Build of configuration 4_6_CPP for project 4_6_Bleeper ****
+make all 
+make: Nothing to be done for 'all'.
+16:05:28 **** Incremental Build of configuration 4_6_CPP for project 4_6_Bleeper ****
+make all 
+Building file: ../src/4_6_Bleeper.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"/home/gallant/cpp_workspace/HelloWorld/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/4_6_Bleeper.d" -MT"src/4_6_Bleeper.o" -o "src/4_6_Bleeper.o" "../src/4_6_Bleeper.cpp"
+Finished building: ../src/4_6_Bleeper.cpp
+ 
+Building target: 4_6_Bleeper
+Invoking: Cross G++ Linker
+g++  -o "4_6_Bleeper"  ./src/4_6_Bleeper.o   
+Finished building target: 4_6_Bleeper
+ 
+16:05:33 **** Incremental Build of configuration 4_6_CPP for project 4_6_Bleeper ****
+make all 
+make: Nothing to be done for 'all'.
+16:07:33 **** Incremental Build of configuration 4_6_CPP for project 4_6_Bleeper ****
+make all 
+Building file: ../src/4_6_Bleeper.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"/home/gallant/cpp_workspace/HelloWorld/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/4_6_Bleeper.d" -MT"src/4_6_Bleeper.o" -o "src/4_6_Bleeper.o" "../src/4_6_Bleeper.cpp"
+Finished building: ../src/4_6_Bleeper.cpp
+ 
+Building target: 4_6_Bleeper
+Invoking: Cross G++ Linker
+g++  -o "4_6_Bleeper"  ./src/4_6_Bleeper.o   
+Finished building target: 4_6_Bleeper
+ 
+16:07:40 **** Incremental Build of configuration 4_6_CPP for project 4_6_Bleeper ****
+make all 
+make: Nothing to be done for 'all'.
+09:36:33 **** Incremental Build of configuration 4_6_CPP for project 4_6_Bleeper ****
+make all 
+Cannot run program "make": Unknown reason
+09:36:36 **** Incremental Build of configuration 4_6_CPP for project 4_6_Bleeper ****
+make all 
+Cannot run program "make": Unknown reason
+09:36:43 **** Incremental Build of configuration 4_6_CPP for project 4_6_Bleeper ****
+make all 
+Cannot run program "make": Unknown reason
+09:36:52 **** Incremental Build of configuration 4_6_CPP for project 4_6_Bleeper ****
+make all 
+Cannot run program "make": Unknown reason
+09:37:51 **** Incremental Build of configuration 4_6_CPP for project 4_6_Bleeper ****
+make all 
+Building file: ../src/4_6_Bleeper.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"/home/gallant/cpp_workspace/HelloWorld/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/4_6_Bleeper.d" -MT"src/4_6_Bleeper.o" -o "src/4_6_Bleeper.o" "../src/4_6_Bleeper.cpp"
+Finished building: ../src/4_6_Bleeper.cpp
+ 
+Building target: 4_6_Bleeper
+Invoking: Cross G++ Linker
+g++  -o "4_6_Bleeper"  ./src/4_6_Bleeper.o   
+Finished building target: 4_6_Bleeper
+ 
+09:37:56 **** Incremental Build of configuration 4_6_CPP for project 4_6_Bleeper ****
+make all 
+make: Nothing to be done for 'all'.
+09:42:40 **** Incremental Build of configuration 4_6_CPP for project 4_6_Bleeper ****
+make all 
+Building file: ../src/4_6_Bleeper.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"/home/gallant/cpp_workspace/HelloWorld/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/4_6_Bleeper.d" -MT"src/4_6_Bleeper.o" -o "src/4_6_Bleeper.o" "../src/4_6_Bleeper.cpp"
+Finished building: ../src/4_6_Bleeper.cpp
+ 
+Building target: 4_6_Bleeper
+Invoking: Cross G++ Linker
+g++  -o "4_6_Bleeper"  ./src/4_6_Bleeper.o   
+Finished building target: 4_6_Bleeper
+ 
+09:42:47 **** Incremental Build of configuration 4_6_CPP for project 4_6_Bleeper ****
+make all 
+make: Nothing to be done for 'all'.
+09:43:50 **** Incremental Build of configuration 4_6_CPP for project 4_6_Bleeper ****
+make all 
+Building file: ../src/4_6_Bleeper.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"/home/gallant/cpp_workspace/HelloWorld/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/4_6_Bleeper.d" -MT"src/4_6_Bleeper.o" -o "src/4_6_Bleeper.o" "../src/4_6_Bleeper.cpp"
+../src/4_6_Bleeper.cpp: In function ‘int main()’:
+../src/4_6_Bleeper.cpp:27:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int j=0;j<disliked_words.size();j++){
+                 ^
+Finished building: ../src/4_6_Bleeper.cpp
+ 
+Building target: 4_6_Bleeper
+Invoking: Cross G++ Linker
+g++  -o "4_6_Bleeper"  ./src/4_6_Bleeper.o   
+Finished building target: 4_6_Bleeper
+ 
+09:44:09 **** Incremental Build of configuration 4_6_CPP for project 4_6_Bleeper ****
+make all 
+Building file: ../src/4_6_Bleeper.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"/home/gallant/cpp_workspace/HelloWorld/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/4_6_Bleeper.d" -MT"src/4_6_Bleeper.o" -o "src/4_6_Bleeper.o" "../src/4_6_Bleeper.cpp"
+Finished building: ../src/4_6_Bleeper.cpp
+ 
+Building target: 4_6_Bleeper
+Invoking: Cross G++ Linker
+g++  -o "4_6_Bleeper"  ./src/4_6_Bleeper.o   
+Finished building target: 4_6_Bleeper
+ 
+09:45:07 **** Incremental Build of configuration 4_6_CPP for project 4_6_Bleeper ****
+make all 
+make: Nothing to be done for 'all'.
+09:52:30 **** Incremental Build of configuration 4_6_CPP for project 4_6_Bleeper ****
+make all 
+Building file: ../src/4_6_Bleeper.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"/home/gallant/cpp_workspace/HelloWorld/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/4_6_Bleeper.d" -MT"src/4_6_Bleeper.o" -o "src/4_6_Bleeper.o" "../src/4_6_Bleeper.cpp"
+../src/4_6_Bleeper.cpp: In function ‘int main()’:
+../src/4_6_Bleeper.cpp:28:32: error: expected primary-expression before ‘)’ token
+    if (disliked_words[j]==temp?)
+                                ^
+../src/4_6_Bleeper.cpp:28:32: error: expected ‘:’ before ‘)’ token
+../src/4_6_Bleeper.cpp:28:32: error: expected primary-expression before ‘)’ token
+src/subdir.mk:18: recipe for target 'src/4_6_Bleeper.o' failed
+make: *** [src/4_6_Bleeper.o] Error 1
+09:53:46 **** Incremental Build of configuration 4_6_CPP for project 4_6_Bleeper ****
+make all 
+Building file: ../src/4_6_Bleeper.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"/home/gallant/cpp_workspace/HelloWorld/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/4_6_Bleeper.d" -MT"src/4_6_Bleeper.o" -o "src/4_6_Bleeper.o" "../src/4_6_Bleeper.cpp"
+Finished building: ../src/4_6_Bleeper.cpp
+ 
+Building target: 4_6_Bleeper
+Invoking: Cross G++ Linker
+g++  -o "4_6_Bleeper"  ./src/4_6_Bleeper.o   
+Finished building target: 4_6_Bleeper
+ 
+09:53:51 **** Incremental Build of configuration 4_6_CPP for project 4_6_Bleeper ****
+make all 
+make: Nothing to be done for 'all'.
+09:54:04 **** Incremental Build of configuration 4_6_CPP for project 4_6_Bleeper ****
+make all 
+make: Nothing to be done for 'all'.
+09:54:22 **** Incremental Build of configuration 4_6_CPP for project 4_6_Bleeper ****
+make all 
+make: Nothing to be done for 'all'.
+09:56:27 **** Incremental Build of configuration 4_6_CPP for project 4_6_Bleeper ****
+make all 
+Building file: ../src/4_6_Bleeper.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"/home/gallant/cpp_workspace/HelloWorld/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/4_6_Bleeper.d" -MT"src/4_6_Bleeper.o" -o "src/4_6_Bleeper.o" "../src/4_6_Bleeper.cpp"
+Finished building: ../src/4_6_Bleeper.cpp
+ 
+Building target: 4_6_Bleeper
+Invoking: Cross G++ Linker
+g++  -o "4_6_Bleeper"  ./src/4_6_Bleeper.o   
+Finished building target: 4_6_Bleeper
+ 
+09:56:36 **** Incremental Build of configuration 4_6_CPP for project 4_6_Bleeper ****
+make all 
+make: Nothing to be done for 'all'.
+09:58:29 **** Incremental Build of configuration 4_6_CPP for project 4_6_Bleeper ****
+make all 
+Building file: ../src/4_6_Bleeper.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"/home/gallant/cpp_workspace/HelloWorld/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/4_6_Bleeper.d" -MT"src/4_6_Bleeper.o" -o "src/4_6_Bleeper.o" "../src/4_6_Bleeper.cpp"
+../src/4_6_Bleeper.cpp: In function ‘int main()’:
+../src/4_6_Bleeper.cpp:16:2: error: ‘vector’ was not declared in this scope
+  vector<string> disliked_words = { "Broccoli", "Kale" };
+  ^
+../src/4_6_Bleeper.cpp:16:15: error: expected primary-expression before ‘>’ token
+  vector<string> disliked_words = { "Broccoli", "Kale" };
+               ^
+../src/4_6_Bleeper.cpp:16:17: error: ‘disliked_words’ was not declared in this scope
+  vector<string> disliked_words = { "Broccoli", "Kale" };
+                 ^
+../src/4_6_Bleeper.cpp:17:15: error: expected primary-expression before ‘>’ token
+  vector<string> words;
+               ^
+../src/4_6_Bleeper.cpp:17:17: error: ‘words’ was not declared in this scope
+  vector<string> words;
+                 ^
+src/subdir.mk:18: recipe for target 'src/4_6_Bleeper.o' failed
+make: *** [src/4_6_Bleeper.o] Error 1
+10:03:16 **** Incremental Build of configuration 4_6_CPP for project 4_6_Bleeper ****
+make all 
+Building file: ../src/4_6_Bleeper.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"/home/gallant/cpp_workspace/HelloWorld/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/4_6_Bleeper.d" -MT"src/4_6_Bleeper.o" -o "src/4_6_Bleeper.o" "../src/4_6_Bleeper.cpp"
+../src/4_6_Bleeper.cpp:11:18: fatal error: vevtor: No such file or directory
+compilation terminated.
+src/subdir.mk:18: recipe for target 'src/4_6_Bleeper.o' failed
+make: *** [src/4_6_Bleeper.o] Error 1
+10:03:25 **** Incremental Build of configuration 4_6_CPP for project 4_6_Bleeper ****
+make all 
+Building file: ../src/4_6_Bleeper.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"/home/gallant/cpp_workspace/HelloWorld/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/4_6_Bleeper.d" -MT"src/4_6_Bleeper.o" -o "src/4_6_Bleeper.o" "../src/4_6_Bleeper.cpp"
+Finished building: ../src/4_6_Bleeper.cpp
+ 
+Building target: 4_6_Bleeper
+Invoking: Cross G++ Linker
+g++  -o "4_6_Bleeper"  ./src/4_6_Bleeper.o   
+Finished building target: 4_6_Bleeper
+ 
+10:03:29 **** Incremental Build of configuration 4_6_CPP for project 4_6_Bleeper ****
+make all 
+make: Nothing to be done for 'all'.
+10:19:25 **** Build of configuration DrillsCPP for project Drills ****
+make all 
+Building file: ../src/Drills.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"/home/gallant/cpp_workspace/HelloWorld/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Drills.d" -MT"src/Drills.o" -o "src/Drills.o" "../src/Drills.cpp"
+Finished building: ../src/Drills.cpp
+ 
+Building target: Drills
+Invoking: Cross G++ Linker
+g++  -o "Drills"  ./src/Drills.o   
+Finished building target: Drills
+ 
+10:19:31 **** Incremental Build of configuration DrillsCPP for project Drills ****
+make all 
+make: Nothing to be done for 'all'.
+10:20:35 **** Incremental Build of configuration DrillsCPP for project Drills ****
+make all 
+Building file: ../src/Drills.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"/home/gallant/cpp_workspace/HelloWorld/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Drills.d" -MT"src/Drills.o" -o "src/Drills.o" "../src/Drills.cpp"
+Finished building: ../src/Drills.cpp
+ 
+Building target: Drills
+Invoking: Cross G++ Linker
+g++  -o "Drills"  ./src/Drills.o   
+Finished building target: Drills
+ 
+10:20:39 **** Incremental Build of configuration DrillsCPP for project Drills ****
+make all 
+make: Nothing to be done for 'all'.
+10:20:41 **** Incremental Build of configuration DrillsCPP for project Drills ****
+make all 
+make: Nothing to be done for 'all'.
+10:24:14 **** Incremental Build of configuration DrillsCPP for project Drills ****
+make all 
+Building file: ../src/Drills.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"/home/gallant/cpp_workspace/HelloWorld/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Drills.d" -MT"src/Drills.o" -o "src/Drills.o" "../src/Drills.cpp"
+../src/Drills.cpp: In function ‘int main()’:
+../src/Drills.cpp:28:1: error: expected ‘}’ at end of input
+ }
+ ^
+src/subdir.mk:18: recipe for target 'src/Drills.o' failed
+make: *** [src/Drills.o] Error 1
+10:24:40 **** Incremental Build of configuration DrillsCPP for project Drills ****
+make all 
+Building file: ../src/Drills.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"/home/gallant/cpp_workspace/HelloWorld/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Drills.d" -MT"src/Drills.o" -o "src/Drills.o" "../src/Drills.cpp"
+Finished building: ../src/Drills.cpp
+ 
+Building target: Drills
+Invoking: Cross G++ Linker
+g++  -o "Drills"  ./src/Drills.o   
+Finished building target: Drills
+ 
+10:24:44 **** Incremental Build of configuration DrillsCPP for project Drills ****
+make all 
+make: Nothing to be done for 'all'.
+10:26:07 **** Incremental Build of configuration DrillsCPP for project Drills ****
+make all 
+Building file: ../src/Drills.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"/home/gallant/cpp_workspace/HelloWorld/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Drills.d" -MT"src/Drills.o" -o "src/Drills.o" "../src/Drills.cpp"
+Finished building: ../src/Drills.cpp
+ 
+Building target: Drills
+Invoking: Cross G++ Linker
+g++  -o "Drills"  ./src/Drills.o   
+Finished building target: Drills
+ 
+10:26:10 **** Incremental Build of configuration DrillsCPP for project Drills ****
+make all 
+make: Nothing to be done for 'all'.
+10:27:52 **** Incremental Build of configuration DrillsCPP for project Drills ****
+make all 
+Building file: ../src/Drills.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"/home/gallant/cpp_workspace/HelloWorld/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Drills.d" -MT"src/Drills.o" -o "src/Drills.o" "../src/Drills.cpp"
+Finished building: ../src/Drills.cpp
+ 
+Building target: Drills
+Invoking: Cross G++ Linker
+g++  -o "Drills"  ./src/Drills.o   
+Finished building target: Drills
+ 
+10:27:57 **** Incremental Build of configuration DrillsCPP for project Drills ****
+make all 
+make: Nothing to be done for 'all'.
+10:32:24 **** Incremental Build of configuration DrillsCPP for project Drills ****
+make all 
+Building file: ../src/Drills.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"/home/gallant/cpp_workspace/HelloWorld/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Drills.d" -MT"src/Drills.o" -o "src/Drills.o" "../src/Drills.cpp"
+Finished building: ../src/Drills.cpp
+ 
+Building target: Drills
+Invoking: Cross G++ Linker
+g++  -o "Drills"  ./src/Drills.o   
+Finished building target: Drills
+ 
+10:32:29 **** Incremental Build of configuration DrillsCPP for project Drills ****
+make all 
+make: Nothing to be done for 'all'.
+10:33:41 **** Incremental Build of configuration DrillsCPP for project Drills ****
+make all 
+Building file: ../src/Drills.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"/home/gallant/cpp_workspace/HelloWorld/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Drills.d" -MT"src/Drills.o" -o "src/Drills.o" "../src/Drills.cpp"
+Finished building: ../src/Drills.cpp
+ 
+Building target: Drills
+Invoking: Cross G++ Linker
+g++  -o "Drills"  ./src/Drills.o   
+Finished building target: Drills
+ 
+10:33:45 **** Incremental Build of configuration DrillsCPP for project Drills ****
+make all 
+make: Nothing to be done for 'all'.
+10:34:19 **** Incremental Build of configuration DrillsCPP for project Drills ****
+make all 
+Building file: ../src/Drills.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"/home/gallant/cpp_workspace/HelloWorld/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Drills.d" -MT"src/Drills.o" -o "src/Drills.o" "../src/Drills.cpp"
+../src/Drills.cpp: In function ‘int main()’:
+../src/Drills.cpp:15:15: warning: ‘a’ is used uninitialized in this function [-Wuninitialized]
+  cout << a << endl;
+               ^
+Finished building: ../src/Drills.cpp
+ 
+Building target: Drills
+Invoking: Cross G++ Linker
+g++  -o "Drills"  ./src/Drills.o   
+Finished building target: Drills
+ 
+10:34:45 **** Incremental Build of configuration DrillsCPP for project Drills ****
+make all 
+Building file: ../src/Drills.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"/home/gallant/cpp_workspace/HelloWorld/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Drills.d" -MT"src/Drills.o" -o "src/Drills.o" "../src/Drills.cpp"
+Finished building: ../src/Drills.cpp
+ 
+Building target: Drills
+Invoking: Cross G++ Linker
+g++  -o "Drills"  ./src/Drills.o   
+Finished building target: Drills
+ 
+10:34:48 **** Incremental Build of configuration DrillsCPP for project Drills ****
+make all 
+make: Nothing to be done for 'all'.
+10:35:21 **** Incremental Build of configuration DrillsCPP for project Drills ****
+make all 
+Building file: ../src/Drills.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"/home/gallant/cpp_workspace/HelloWorld/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Drills.d" -MT"src/Drills.o" -o "src/Drills.o" "../src/Drills.cpp"
+Finished building: ../src/Drills.cpp
+ 
+Building target: Drills
+Invoking: Cross G++ Linker
+g++  -o "Drills"  ./src/Drills.o   
+Finished building target: Drills
+ 
+10:35:25 **** Incremental Build of configuration DrillsCPP for project Drills ****
+make all 
+make: Nothing to be done for 'all'.
+10:36:33 **** Incremental Build of configuration DrillsCPP for project Drills ****
+make all 
+Building file: ../src/Drills.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"/home/gallant/cpp_workspace/HelloWorld/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Drills.d" -MT"src/Drills.o" -o "src/Drills.o" "../src/Drills.cpp"
+Finished building: ../src/Drills.cpp
+ 
+Building target: Drills
+Invoking: Cross G++ Linker
+g++  -o "Drills"  ./src/Drills.o   
+Finished building target: Drills
+ 
+10:36:37 **** Incremental Build of configuration DrillsCPP for project Drills ****
+make all 
+make: Nothing to be done for 'all'.
+10:39:37 **** Incremental Build of configuration DrillsCPP for project Drills ****
+make all 
+make: Nothing to be done for 'all'.
+10:39:43 **** Incremental Build of configuration DrillsCPP for project Drills ****
+make all 
+Building file: ../src/Drills.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"/home/gallant/cpp_workspace/HelloWorld/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Drills.d" -MT"src/Drills.o" -o "src/Drills.o" "../src/Drills.cpp"
+Finished building: ../src/Drills.cpp
+ 
+Building target: Drills
+Invoking: Cross G++ Linker
+g++  -o "Drills"  ./src/Drills.o   
+Finished building target: Drills
+ 
+10:40:05 **** Incremental Build of configuration DrillsCPP for project Drills ****
+make all 
+make: Nothing to be done for 'all'.
+03:54:39 **** Incremental Build of configuration DrillsCPP for project Drills ****
+make all 
+Building file: ../src/Drills.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"/home/gallant/cpp_workspace/HelloWorld/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Drills.d" -MT"src/Drills.o" -o "src/Drills.o" "../src/Drills.cpp"
+Finished building: ../src/Drills.cpp
+ 
+Building target: Drills
+Invoking: Cross G++ Linker
+g++  -o "Drills"  ./src/Drills.o   
+Finished building target: Drills
+ 
+03:54:45 **** Incremental Build of configuration DrillsCPP for project Drills ****
+make all 
+make: Nothing to be done for 'all'.
+04:54:57 **** Incremental Build of configuration DrillsCPP for project Drills ****
+make all 
+Building file: ../src/Drills.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"/home/gallant/cpp_workspace/HelloWorld/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Drills.d" -MT"src/Drills.o" -o "src/Drills.o" "../src/Drills.cpp"
+../src/Drills.cpp: In function ‘int main()’:
+../src/Drills.cpp:20:14: error: switch quantity not an integer
+  switch (unit) {
+              ^
+../src/Drills.cpp:21:7: error: could not convert ‘"in"’ from ‘const char [3]’ to ‘<type error>’
+  case "in":
+       ^
+../src/Drills.cpp:24:7: error: could not convert ‘"m"’ from ‘const char [2]’ to ‘<type error>’
+  case "m":
+       ^
+../src/Drills.cpp:27:7: error: could not convert ‘"ft"’ from ‘const char [3]’ to ‘<type error>’
+  case "ft":
+       ^
+src/subdir.mk:18: recipe for target 'src/Drills.o' failed
+make: *** [src/Drills.o] Error 1
+04:58:12 **** Incremental Build of configuration DrillsCPP for project Drills ****
+make all 
+Building file: ../src/Drills.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"/home/gallant/cpp_workspace/HelloWorld/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Drills.d" -MT"src/Drills.o" -o "src/Drills.o" "../src/Drills.cpp"
+../src/Drills.cpp: In function ‘int main()’:
+../src/Drills.cpp:20:14: error: switch quantity not an integer
+  switch (unit) {
+              ^
+src/subdir.mk:18: recipe for target 'src/Drills.o' failed
+make: *** [src/Drills.o] Error 1
+04:58:30 **** Incremental Build of configuration DrillsCPP for project Drills ****
+make all 
+Building file: ../src/Drills.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"/home/gallant/cpp_workspace/HelloWorld/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Drills.d" -MT"src/Drills.o" -o "src/Drills.o" "../src/Drills.cpp"
+../src/Drills.cpp: In function ‘int main()’:
+../src/Drills.cpp:19:9: warning: variable ‘cm’ set but not used [-Wunused-but-set-variable]
+  double cm;
+         ^
+Finished building: ../src/Drills.cpp
+ 
+Building target: Drills
+Invoking: Cross G++ Linker
+g++  -o "Drills"  ./src/Drills.o   
+Finished building target: Drills
+ 
+04:58:36 **** Incremental Build of configuration DrillsCPP for project Drills ****
+make all 
+make: Nothing to be done for 'all'.
+04:59:12 **** Incremental Build of configuration DrillsCPP for project Drills ****
+make all 
+Building file: ../src/Drills.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"/home/gallant/cpp_workspace/HelloWorld/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Drills.d" -MT"src/Drills.o" -o "src/Drills.o" "../src/Drills.cpp"
+../src/Drills.cpp: In function ‘int main()’:
+../src/Drills.cpp:19:9: warning: variable ‘cm’ set but not used [-Wunused-but-set-variable]
+  double cm;
+         ^
+Finished building: ../src/Drills.cpp
+ 
+Building target: Drills
+Invoking: Cross G++ Linker
+g++  -o "Drills"  ./src/Drills.o   
+Finished building target: Drills
+ 
+04:59:16 **** Incremental Build of configuration DrillsCPP for project Drills ****
+make all 
+make: Nothing to be done for 'all'.
+05:05:50 **** Incremental Build of configuration DrillsCPP for project Drills ****
+make all 
+Building file: ../src/Drills.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"/home/gallant/cpp_workspace/HelloWorld/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Drills.d" -MT"src/Drills.o" -o "src/Drills.o" "../src/Drills.cpp"
+../src/Drills.cpp: In function ‘int main()’:
+../src/Drills.cpp:16:7: warning: unused variable ‘unit’ [-Wunused-variable]
+  char unit;
+       ^
+Finished building: ../src/Drills.cpp
+ 
+Building target: Drills
+Invoking: Cross G++ Linker
+g++  -o "Drills"  ./src/Drills.o   
+Finished building target: Drills
+ 
+05:05:57 **** Incremental Build of configuration DrillsCPP for project Drills ****
+make all 
+make: Nothing to be done for 'all'.
+05:10:45 **** Incremental Build of configuration DrillsCPP for project Drills ****
+make all 
+Building file: ../src/Drills.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"/home/gallant/cpp_workspace/HelloWorld/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Drills.d" -MT"src/Drills.o" -o "src/Drills.o" "../src/Drills.cpp"
+../src/Drills.cpp: In function ‘int main()’:
+../src/Drills.cpp:16:7: warning: unused variable ‘unit’ [-Wunused-variable]
+  char unit;
+       ^
+Finished building: ../src/Drills.cpp
+ 
+Building target: Drills
+Invoking: Cross G++ Linker
+g++  -o "Drills"  ./src/Drills.o   
+Finished building target: Drills
+ 
+05:10:50 **** Incremental Build of configuration DrillsCPP for project Drills ****
+make all 
+make: Nothing to be done for 'all'.
+05:14:38 **** Incremental Build of configuration DrillsCPP for project Drills ****
+make all 
+Building file: ../src/Drills.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"/home/gallant/cpp_workspace/HelloWorld/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Drills.d" -MT"src/Drills.o" -o "src/Drills.o" "../src/Drills.cpp"
+../src/Drills.cpp: In function ‘int main()’:
+../src/Drills.cpp:36:7: error: ‘temps’ was not declared in this scope
+  sort(temps);
+       ^
+../src/Drills.cpp:16:7: warning: unused variable ‘unit’ [-Wunused-variable]
+  char unit;
+       ^
+src/subdir.mk:18: recipe for target 'src/Drills.o' failed
+make: *** [src/Drills.o] Error 1
+05:14:55 **** Incremental Build of configuration DrillsCPP for project Drills ****
+make all 
+Building file: ../src/Drills.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"/home/gallant/cpp_workspace/HelloWorld/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Drills.d" -MT"src/Drills.o" -o "src/Drills.o" "../src/Drills.cpp"
+../src/Drills.cpp: In function ‘int main()’:
+../src/Drills.cpp:16:7: warning: unused variable ‘unit’ [-Wunused-variable]
+  char unit;
+       ^
+Finished building: ../src/Drills.cpp
+ 
+Building target: Drills
+Invoking: Cross G++ Linker
+g++  -o "Drills"  ./src/Drills.o   
+Finished building target: Drills
+ 
+05:16:13 **** Incremental Build of configuration DrillsCPP for project Drills ****
+make all 
+make: Nothing to be done for 'all'.

@@ -1,0 +1,31 @@
+//============================================================================
+// Name        : Drills.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include "std_lib_facilities.h"
+
+using namespace std;
+
+int main() {
+	double a, b;
+
+	while (cin >> a >> b) {
+		cout << a << "  " << b << endl;
+		if (b < a) {
+			double temp;
+			temp = a;
+			a = b;
+			b = temp;
+		}
+		cout << "The smaller value is: " << a << endl;
+		cout << "The larger value is: " << b << endl;
+		if (b - a < 1.0 / 100)
+			cout << "The numbers are almost equal." << endl;
+	}
+	cout << "end" << endl;
+	return 0;
+}

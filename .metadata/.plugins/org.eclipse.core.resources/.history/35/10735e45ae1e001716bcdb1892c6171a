@@ -1,0 +1,50 @@
+//============================================================================
+// Name        : Drills.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include "std_lib_facilities.h"
+
+using namespace std;
+
+int main() {
+	vector<string> allowed_units = { "i", "c", "m", "f" };
+	double a, max, min;
+	char unit;
+	cin >> a >> unit;
+	cout << a << unit << endl;
+	double cm;
+	switch (unit) {
+	case 'i':
+		cm = 2.54 * a;
+		break;
+	case 'm':
+		cm = a / 100;
+		break;
+	case 'f':
+		cm = 2.54 * a / 12;
+		break;
+	default:
+		cout << "Not a proper unit." << endl;
+	}
+	min = a;
+	max = a;
+	cout << a << " is the smallest so far,\n";
+	cout << a << " is the largest so far,\n";
+
+	while (cin >> a) {
+		if (a < min) {
+			cout << a << " is the smallest so far,\n";
+			min = a;
+		}
+		if (a > max) {
+			cout << a << " is the largest so far.\n";
+			max = a;
+		}
+	}
+	cout << "end" << endl;
+	return 0;
+}

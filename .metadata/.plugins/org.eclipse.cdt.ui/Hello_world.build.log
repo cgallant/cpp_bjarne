@@ -1,0 +1,18 @@
+17:27:31 **** Incremental Build of configuration Debug for project Hello_world ****
+make all 
+Building file: ../src/Hello_world.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++1y -O2 -g -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"src/Hello_world.d" -MT"src/Hello_world.d" -o "src/Hello_world.o" "../src/Hello_world.cpp"
+Finished building: ../src/Hello_world.cpp
+ 
+Building target: libHello_world
+Invoking: Cross G++ Linker
+g++ -shared -o "libHello_world"  ./src/Hello_world.o   
+makefile:45: recipe for target 'libHello_world' failed
+/usr/bin/ld: ./src/Hello_world.o: relocation R_X86_64_32 against `.rodata.str1.1' can not be used when making a shared object; recompile with -fPIC
+./src/Hello_world.o: error adding symbols: Bad value
+collect2: error: ld returned 1 exit status
+make: *** [libHello_world] Error 1
+
+17:27:36 Build Finished (took 4s.732ms)
+

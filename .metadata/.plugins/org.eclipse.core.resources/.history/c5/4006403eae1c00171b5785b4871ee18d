@@ -1,0 +1,23 @@
+//============================================================================
+// Name        : 4_6_Bleeper.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <std_lib_facilities.h>
+using namespace std;
+
+int main() {
+	string temp;
+	vector<string>words;
+	cout << "Enter words (\"Exit\" to exit):";
+
+	while (cin>>temp){
+		for(int i=0; i<words.size(); i++){
+
+		}
+	}
+	return 0;
+}

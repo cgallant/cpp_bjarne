@@ -1,0 +1,30 @@
+//============================================================================
+// Name        : 4_6_Bleeper.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Bleeper
+//============================================================================
+
+#include <std_lib_facilities.h>
+
+using namespace std;
+
+int main() {
+	vector<string> disliked_words;
+	vector<string> words;
+	cout << "Enter words (\"Exit\" to exit):";
+	string temp =" ";
+
+	do {
+		cin>>temp;
+		words.push_back(temp);
+	}
+	while(temp != "exit");
+
+	for (unsigned int i = 0; i< words.size()-1; i++) {
+		cout << words[i]<<endl;
+	}
+	cout << endl;
+	return 0;
+}

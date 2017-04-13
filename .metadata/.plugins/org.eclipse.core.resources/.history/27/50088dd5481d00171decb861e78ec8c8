@@ -1,0 +1,19 @@
+//============================================================================
+// Name        : Drills.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include "std_lib_facilities.h"
+
+using namespace std;
+
+int main() {
+	int a, b;
+
+	while (cin >> a >> b)
+		cout << a << "  " << b << endl;
+	return 0;
+}

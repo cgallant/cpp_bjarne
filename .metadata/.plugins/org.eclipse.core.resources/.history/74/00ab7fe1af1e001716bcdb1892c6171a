@@ -1,0 +1,39 @@
+//============================================================================
+// Name        : Drills.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include "std_lib_facilities.h"
+
+using namespace std;
+
+int main() {
+	vector<int> values;
+	double a, max, min;
+	char unit;
+	cin >> a;
+	min = a;
+	max = a;
+	cout << a << " is the smallest so far,\n";
+	cout << a << " is the largest so far,\n";
+	values.push_back(a);
+
+	while (cin >> a) {
+		values.push_back(a);
+		if (a < min) {
+			cout << a << " is the smallest so far,\n";
+			min = a;
+		}
+		if (a > max) {
+			cout << a << " is the largest so far.\n";
+			max = a;
+		}
+	}
+	cout << "end" << endl;
+	for (unsigned int x : values)
+		cout << values[x] << endl;
+	return 0;
+}

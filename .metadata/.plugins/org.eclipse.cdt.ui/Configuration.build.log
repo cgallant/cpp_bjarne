@@ -1,0 +1,15 @@
+10:13:39 **** Incremental Build of configuration CPP for project Configuration ****
+make all 
+Building file: ../src/Configuration.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"/home/gallant/cpp_workspace/HelloWorld/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Configuration.d" -MT"src/Configuration.o" -o "src/Configuration.o" "../src/Configuration.cpp"
+Finished building: ../src/Configuration.cpp
+ 
+Building target: Configuration
+Invoking: Cross G++ Linker
+g++  -o "Configuration"  ./src/Configuration.o   
+Finished building target: Configuration
+ 
+
+10:13:42 Build Finished (took 2s.565ms)
+
